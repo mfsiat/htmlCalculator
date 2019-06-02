@@ -5,6 +5,14 @@
 		function insert(num){
 			document.form.fname.value = document.form.fname.value+num
 		}
+
+		function equal(){
+			var exp = document.form.fname.value;
+			if(exp) {
+				document.form.fname.value = eval(exp)	
+			}
+		}
+
 	</script>
 	<title>Calculator</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -38,7 +46,7 @@
 					<td><button class="button button1" onclick="insert(1)">1</button></td>
 					<td><button class="button button1" onclick="insert(2)">2</button></td>
 					<td><button class="button button1" onclick="insert(3)">3</button></td>
-					<td><button class="button button1" onclick="insert('=')">=</button></td>
+					<td><button class="button button1" onclick="equal()">=</button></td>
 				</tr>
 			</table>
 	</div>
