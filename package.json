@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mfsiat/htmlCalculator/issues"
   },
-  "homepage": "https://github.com/mfsiat/htmlCalculator#readme"
+  "homepage": "https://github.com/mfsiat/htmlCalculator#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
