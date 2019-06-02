@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script type="text/javascript">
+		function insert(num){
+			document.form.fname.value = document.form.fname.value+num
+		}
+	</script>
 	<title>Calculator</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</style>
@@ -8,32 +13,32 @@
 <body>
 	<div class="main">
 		<form name="form">
-			<input class="textview">
+			<input type="text" id="fname" name="fname">
 		</form>
 			<table>
 				<tr>
-					<td><button class="button button1">C</button></td>
-					<td><button class="button button1"><</button></td>
-					<td><button class="button button1">/</button></td>
-					<td><button class="button button1">x</button></td>
+					<td><button class="button button1" onclick="insert(C)">C</button></td>
+					<td><button class="button button1" onclick="insert(<)"><</button></td>
+					<td><button class="button button1" onclick="insert(/)">/</button></td>
+					<td><button class="button button1" onclick="insert(x)">x</button></td>
 				</tr>
 				<tr>
-					<td><button class="button button1">7</button></td>
-					<td><button class="button button1">8</button></td>
-					<td><button class="button button1">9</button></td>
-					<td><button class="button button1">-</button></td>
+					<td><button class="button button1" onclick="insert(7)">7</button></td>
+					<td><button class="button button1" onclick="insert(8)">8</button></td>
+					<td><button class="button button1" onclick="insert(9)">9</button></td>
+					<td><button class="button button1" onclick="insert(-)">-</button></td>
 				</tr>
 				<tr>
-					<td><button class="button button1">4</button></td>
-					<td><button class="button button1">5</button></td>
-					<td><button class="button button1">6</button></td>
-					<td><button class="button button1">+</button></td>
+					<td><button class="button button1" onclick="insert(4)">4</button></td>
+					<td><button class="button button1" onclick="insert(5)">5</button></td>
+					<td><button class="button button1" onclick="insert(6)">6</button></td>
+					<td><button class="button button1" onclick="insert(+)">+</button></td>
 				</tr>
 				<tr>
-					<td><button class="button button1">1</button></td>
-					<td><button class="button button1">2</button></td>
-					<td><button class="button button1">3</button></td>
-					<td><button class="button button1">=</button></td>
+					<td><button class="button button1" onclick="insert(1)">1</button></td>
+					<td><button class="button button1" onclick="insert(2)">2</button></td>
+					<td><button class="button button1" onclick="insert(3)">3</button></td>
+					<td><button class="button button1" onclick="insert(=)">=</button></td>
 				</tr>
 			</table>
 	</div>
