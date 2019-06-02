@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Simple calculator ",
   "main": "index.js",
-  "homepage": "https://github.com/mfsiat/htmlCalculator/blob/master/index.html",
+  "homepage": "https://github.com/mfsiat/htmlCalculator",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d"
   },
   "repository": {
     "type": "git",
