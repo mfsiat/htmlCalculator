@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Simple calculator ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfsiat/htmlCalculator.git"
+  },
+  "author": "MD. Nasirul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mfsiat/htmlCalculator/issues"
+  },
+  "homepage": "https://github.com/mfsiat/htmlCalculator#readme"
+}
